@@ -1,8 +1,8 @@
-url_captcha_scihub>>http://moscow.sci-hub.cc
-url_libgen>>http://libgen.io/scimag/ads.php
-url_scihub>>http://sci-hub.cc/
-xpath_libgen_a>>/html/body/table/tr/td[3]/a
-xpath_scihub_captcha>>//*[@id='captcha']
-xpath_scihub_iframe>>//iframe/@src
-xpath_scihub_pdf>>//*[@id='pdf']
-version>>0.1.0
+libgen_url>>http://libgen.io/scimag/ads.php
+libgen_xpath_pdf_url>>/html/body/table/tr/td[3]/a
+xpath_captcha>>//*[@id='captcha']
+xpath_pdf>>//*[@id='pdf']
+xpath_input>>/html/body/div/table/tbody/tr/td/form/input
+xpath_form>>/html/body/div/table/tbody/tr/td/form
+domain_scihub>>http://sci-hub.cc/
+version>>0.4.0
